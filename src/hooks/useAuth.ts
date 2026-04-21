@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { User, CreateUserRequest, LoginRequest } from '../types';
-import { authApi, setAuthData, clearAuthData, getStoredUser, getStoredToken } from '../services/api';
+import { authApi, clearAuthData, getStoredUser, getStoredToken } from '../services/api';
 
 interface UseAuthReturn {
   user: User | null;

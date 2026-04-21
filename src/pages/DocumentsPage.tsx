@@ -3,7 +3,7 @@ import { useAuth } from '../hooks/useAuth';
 import { useDocuments } from '../hooks/useDocuments';
 import { useAnalysis } from '../hooks/useAnalysis';
 import { Document, DocumentAnalysisStatusResponse } from '../types';
-import { FileText, Upload, Play, AlertCircle, CheckCircle, Clock, Eye } from 'lucide-react';
+import { FileText, Upload, Play, AlertCircle, CheckCircle, Clock } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export const DocumentsPage: React.FC = () => {

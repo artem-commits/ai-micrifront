@@ -37,6 +37,7 @@ export interface User {
 export interface Document {
   id: number;
   filename: string;
+  upload_time: string;
   owner_id: number;
   status: string;
   created_at: string;

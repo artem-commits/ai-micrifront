@@ -31,7 +31,7 @@
 
 1. **Клонируйте репозиторий**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ai-legal-analyzer/ai-micrifront.git
    cd microfront
    ```
 
@@ -45,11 +45,11 @@
    cp env.example .env
    ```
    
-   Отредактируйте `.env` файл, указав URL ваших микросервисов:
+   Отредактируйте `.env` файл, указав URL микросервисов:
    ```env
-   VITE_AUTH_API_URL=http://localhost:8000
-   VITE_DOCS_API_URL=http://localhost:8001
-   VITE_ANALYSIS_API_URL=http://localhost:8002
+   VITE_AUTH_API_URL=http://localhost:8001
+   VITE_DOCS_API_URL=http://localhost:8000
+   VITE_ANALYSIS_API_URL=http://localhost:4000
    ```
 
 4. **Запустите приложение**

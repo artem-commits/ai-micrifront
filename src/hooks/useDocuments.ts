@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 import { Document, DocumentUploadResponse, TaskStatus } from '../types';
 import { docsApi } from '../services/api';
 

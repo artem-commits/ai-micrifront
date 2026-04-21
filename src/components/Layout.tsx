@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
-import { LogOut, FileText, Upload, BarChart3, User } from 'lucide-react';
+import { LogOut, FileText, Upload, User } from 'lucide-react';
 
 interface LayoutProps {
   children: React.ReactNode;
